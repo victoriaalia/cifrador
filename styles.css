@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+
+* {
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 99, 71, 0.993);
+    color: rgba(253, 253, 255, 0.945);
+
+}
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+main {
+    background-color:rgba(107, 9, 26, 0.63);
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 8px 8px 35px 0px rgba(14, 10, 10, 0.397);
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+#input-original, #resultado {
+    width: -webkit-fill-available;
+    background-color: rgba(255, 255, 255, 0.911);
+    color: rgb(0, 0, 0);
+    
+}
+
+#input-original {
+    margin: 10px 0 0;
+    padding: 5px;
+    border-top-left-radius: var(--borde-redondo);
+    border-top-right-radius: var(--borde-redondo);
+}
+
+#resultado {
+    height: 20px;
+    padding: 0 10px 10px;
+    background-color:rgba(8, 8, 8, 0.445);
+    color: white;
+}
+
+.rango {
+    margin-top: 20px;
+    text-align: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 30px;
+}
+

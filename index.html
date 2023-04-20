@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--titulo-->
+     <title>CIFRADOR CÉSAR</title>
+     <!--favicon-->
+     <link href="icons8-abc-32.png" rel="icon" type="image/x-icon" href="stock-vector-retro-technology-icons-simon-says-game-ultra-color-670971922-removebg-preview.png">
+     <!--css-->
+     <link rel="stylesheet" href="styles.css">
+     <!--javascript-->
+     <script src="script.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <main>
+        <h1> Cifrador César</h1>
+        <form id="cifrador" autocomplete="off">
+            <input id="input-original" spellcheck="false"
+            placeholder="Ingrese el texto" type="text" name="text">
+        </form>
+        <div id="resultado"></div>
+        <div class="rango">
+            <input id="rango" type="range" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
+            <output>10</output>
+
+        </div>
+    </main>
+    
+</body>
+</html>
